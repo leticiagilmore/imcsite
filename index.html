@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Leticia Francisco">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de IMC</h1>
+    </header>
+
+    <main>
+        <section class="dados">
+            <form action="/" method="post" id="forms">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso" autocomplete="off" placeholder="Digite seu peso">
+
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura" autocomplete="off" placeholder="Digite sua altura">
+
+                <button type="submit">Calcular</button>
+                <button type="reset">Limpar</button>
+            </form>
+        </section>
+
+        <aside>
+            <figure>
+                <img src="images/tabela-imc.png" alt="tabela" title="Tabela IMC">
+            </figure>
+
+            <section id="resultado"></section>
+        </aside>
+    </main>
+
+    <script src="js/main.js"></script>
+
+    <footer>
+        <p>Made by Leticia Francisco &copy;</p>
+    </footer>
+</body>
+</html>
